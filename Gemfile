@@ -5,12 +5,13 @@ gem 'jquery-rails'
 
 group :production do 
 	gem 'pg'
-	gem 'rails_12factor'
 end 
 
 group :development, :test do
 	gem 'sqlite3'
 end 
+
+gem 'rails_12factor'
 
 gem 'sass-rails', '~> 4.0.0'
 
