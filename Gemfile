@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.0.0'
 gem 'jquery-rails'
- ruby '2.0.0'
 
 group :production do 
 	gem 'pg'
