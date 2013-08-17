@@ -1,4 +1,8 @@
 
+<% if user_signed_in? %>
+<h1> ようこそSora助へ </h1>
+<% else %>
+
 <div class="hero-unit">
 	<h2>みんなの"OFF"を一括でスケジュールしよう！	</h2>
 
@@ -7,11 +11,12 @@
 	</p>
 
 	<p> 
-	<%= link_to "登録する", "#", class: "btn btn-primary btn-large" %>
+	<%= link_to "登録する", new_user_registration_path, class: "btn btn-primary btn-large" %>
 
 	</p>
 
 </div>
+<% end %>
 
 
 
