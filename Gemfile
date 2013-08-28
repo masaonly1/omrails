@@ -2,8 +2,10 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.0.0'
 gem 'jquery-rails'
-gem 'devise'
 gem 'simple_form'
+gem 'devise'
+gem 'protected_attributes'
+gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
 
 group :production do 
 	gem 'pg'
